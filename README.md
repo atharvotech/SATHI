@@ -7,7 +7,6 @@
 *Powered by Gemma 4 (llama.cpp) · Hinglish personality · Real-time WebSocket UI*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![LLM](https://img.shields.io/badge/LLM-Gemma%204-orange?style=for-the-badge)](https://huggingface.co/google/gemma-4)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows)](https://microsoft.com/windows)
 
@@ -517,9 +516,23 @@ And adjust `n_ctx`, `n_threads`, `n_batch` in the `Llama()` constructor accordin
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+```
+Dhwani/AtharTTS(SATHI) Non-Commercial License
+Copyright (c) 2026 Atharv Shukla (Atharvotech™)
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish, and distribute the Software solely for 
+PERSONAL, EDUCATIONAL, and NON-COMMERCIAL purposes.
+
+Strictly Prohibited:
+You may NOT use this Software, or any modified version of it, for any 
+commercial purpose. You may NOT sell, rent, or lease the Software. You may 
+NOT integrate this Software into any product or service that generates 
+revenue or profit.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+```
 
 <div align="center">
 
