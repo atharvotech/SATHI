@@ -1,0 +1,3 @@
+[submodule "atharTTS"]
+	path = atharTTS
+	url = https://github.com/atharvotech/Dwani.git
