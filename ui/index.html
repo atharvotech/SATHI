@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS — Computer Autopilot</title>
+    <meta name="description" content="JARVIS AI Computer Autopilot — Voice-controlled, vision-enabled, agentic desktop assistant">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <div class="logo-glow"></div>
+                <h1>JARVIS</h1>
+                <span class="subtitle">Computer Autopilot</span>
+            </div>
+            <div class="header-right">
+                <div class="status-indicator" id="statusIndicator">
+                    <div class="status-dot"></div>
+                    <span id="statusText">Initializing...</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Panel — Avatar -->
+            <aside class="avatar-panel">
+                <div class="avatar-container">
+                    <canvas id="avatarCanvas" width="400" height="400"></canvas>
+                    <div class="avatar-glow"></div>
+                </div>
+                <div class="avatar-status" id="avatarStatus">
+                    <span class="status-label">SATHI</span>
+                    <span class="status-mode" id="avatarMode">Idle</span>
+                </div>
+                <!-- Tool Activity Feed -->
+                <div class="tool-feed" id="toolFeed">
+                    <div class="feed-title">Activity</div>
+                    <div class="feed-items" id="feedItems"></div>
+                </div>
+            </aside>
+
+            <!-- Right Panel — Chat -->
+            <section class="chat-panel">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="welcome-msg">
+                        <div class="welcome-icon">⚡</div>
+                        <h2>JARVIS Online</h2>
+                        <p>Type a message or give a command. I can control your computer, search the web, open apps, and more.</p>
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <textarea id="chatInput" placeholder="Type a message or command..." rows="1" autofocus></textarea>
+                        <button id="sendBtn" class="send-button" title="Send">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="input-hint">Press Enter to send · Shift+Enter for new line</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

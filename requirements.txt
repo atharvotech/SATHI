@@ -1,0 +1,38 @@
+# LLM - Local Model
+llama-cpp-python
+
+# Web Server (async, WebSocket support)
+aiohttp
+
+# Environment Variables
+python-dotenv
+
+# Audio & Text-to-Speech
+sounddevice
+soundfile
+numpy
+scipy
+edge-tts
+
+# Computer Control (Mouse, Keyboard, Screenshots)
+pyautogui
+Pillow
+pygetwindow
+pyperclip
+
+# Web Search
+duckduckgo-search
+requests
+
+# System Info
+psutil
+
+# OCR (optional — needs Tesseract installed separately)
+# pytesseract
+
+# Speech Recognition (disabled during dev)
+SpeechRecognition
+PyAudio
+
+# General
+pygame

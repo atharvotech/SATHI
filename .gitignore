@@ -1,0 +1,21 @@
+# AI Models 
+models/
+*.gguf
+*.bin
+
+test/asset
+atharTTS_backup/
+
+# Python Virtual Environment & Cache
+.venv/
+__pycache__/
+*.pyc
+.vscode
+
+# API Keys aur Secrets 
+.env
+
+# Audio aur Temp files
+*.wav
+*.mp3
+*.log
