@@ -451,7 +451,7 @@ The `atharTTS/` directory is a Git submodule containing an independent, advanced
 - **CLI**, **Web UI**, **Discord bot**, **Telegram bot** integrations
 - Multiple engine backends (ChatTTS, Edge TTS, custom)
 
-See [`atharTTS/README.md`](Dhwani/README.md) for full documentation. It is currently not active in the main pipeline (Edge TTS is used instead) but can be integrated by replacing the `sathi_speak()` function in `core/tts_engine.py`.
+See [`atharTTS/README.md`](https://github.com/atharvotech/Dhwani/README.md) for full documentation. It is currently not active in the main pipeline (Edge TTS is used instead) but can be integrated by replacing the `sathi_speak()` function in `core/tts_engine.py`.
 
 ---
 
@@ -536,6 +536,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 <div align="center">
 
-*Built with ❤️ by [Atharv](https://github.com/atharvotech) · "Bol Cuto, kya karna hai?"*
+*"The goal is not to build an AI. The goal is to build a companion."*</br>
+Made with ❤️ in INDIA By ATHARVOECH™ -THE WORLD OF INFINTE CREATIVITY
+
+⭐ Star this repo if Dhwani helped you!
 
 </div>
