@@ -277,16 +277,16 @@ The dashboard is a single-page app served at `http://localhost:8080` by the aioh
 ### Layout
 ```
 ┌─────────────────────────────────────────────────────┐
-│  ⚡ JARVIS     Computer Autopilot          ● Online  │
+│  ⚡ JARVIS     Computer Autopilot          ● Online │
 ├──────────────────────┬──────────────────────────────┤
 │   Avatar Panel       │   Chat Panel                 │
 │                      │                              │
 │  [Canvas Avatar]     │  [Message history]           │
 │  Animated glow       │                              │
-│                      │  ┌──────────────────────┐   │
+│                      │  ┌──────────────────────┐    │
 │  SATHI               │  │ Type a message...    │ ▶ │
-│  Idle / Thinking     │  └──────────────────────┘   │
-│                      │  Enter to send              │
+│  Idle / Thinking     │  └──────────────────────┘    │
+│                      │  Enter to send               │
 │  Activity Feed       │                              │
 │  [Tool results]      │                              │
 └──────────────────────┴──────────────────────────────┘
@@ -385,7 +385,7 @@ pip install -r requirements.txt
 Download `gemma-4-E4B-it-Q8_0.gguf` and place it in the `models/` directory:
 ```
 models/
-└── gemma-4-E4B-it-Q8_0.gguf   (~4.5 GB)
+└── gemma-4-E4B-it-Q8_0.gguf   (~7.6 GB)
 ```
 
 You can find it on [Hugging Face](https://huggingface.co/models?search=gemma+4+gguf).
@@ -451,7 +451,7 @@ The `atharTTS/` directory is a Git submodule containing an independent, advanced
 - **CLI**, **Web UI**, **Discord bot**, **Telegram bot** integrations
 - Multiple engine backends (ChatTTS, Edge TTS, custom)
 
-See [`atharTTS/README.md`](atharTTS/README.md) for full documentation. It is currently not active in the main pipeline (Edge TTS is used instead) but can be integrated by replacing the `sathi_speak()` function in `core/tts_engine.py`.
+See [`atharTTS/README.md`](Dhwani/README.md) for full documentation. It is currently not active in the main pipeline (Edge TTS is used instead) but can be integrated by replacing the `sathi_speak()` function in `core/tts_engine.py`.
 
 ---
 
@@ -517,7 +517,7 @@ And adjust `n_ctx`, `n_threads`, `n_batch` in the `Llama()` constructor accordin
 ## 📄 License
 
 ```
-Dhwani/AtharTTS(SATHI) Non-Commercial License
+JARVIS(SATHI) Non-Commercial License
 Copyright (c) 2026 Atharv Shukla (Atharvotech™)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
